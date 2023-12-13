@@ -26,7 +26,7 @@ class App {
         for (String element : map.keySet()) {
             res += "  " + element + ": " + map.get(element) + "\n";
         }
-        res += "}\n";
+        res += "}";
         return res;
     }
 }
